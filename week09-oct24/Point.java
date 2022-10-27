@@ -1,8 +1,8 @@
 class Point {
 
   // instance variables (data)
-  public double x = -1.0;
-  public double y = -1.0;
+  private double x = -1.0;
+  private double y = -1.0;
 
   public Point() { // implemention of a constructor
     // purpose: create an empty point
@@ -17,7 +17,8 @@ class Point {
     this.y = iny; 
   }
 
-  public double getX() {
+  // methods are public by default
+  double getX() {
     // note: we can access instance variables, like x, in an instance method!
     return this.x; // returns instance value x
   }
