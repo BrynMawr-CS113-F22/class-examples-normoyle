@@ -19,4 +19,10 @@ class Customer {
   public String toString() {
     return this.name+" "+this.balance;
   }
+
+  public static void main(String[] args) {
+    Customer c = new Customer("Bill Larry", 3256);
+    System.out.println("Customer: "+c);
+  }
+
 }
